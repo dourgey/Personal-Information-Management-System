@@ -1,0 +1,14 @@
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\bin\Debug\学生信息管理系统.exe.config
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\bin\Debug\学生信息管理系统.exe
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\bin\Debug\学生信息管理系统.pdb
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\学生信息管理系统.csprojResolveAssemblyReference.cache
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\学生信息管理系统.Properties.Resources.resources
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\学生信息管理系统.csproj.GenerateResource.Cache
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\学生信息管理系统.exe
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\学生信息管理系统.pdb
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\小区居民管理系统.Form1.resources
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\小区居民管理系统.欢迎页.resources
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\小区居民管理系统.管理员新增用户.resources
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\小区居民管理系统.管理员窗口.resources
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\小区居民管理系统.查询页面.resources
+C:\Users\MrDourgey\Desktop\学生信息管理系统\学生信息管理系统\学生信息管理系统\obj\Debug\小区居民管理系统.管理员新增居民.resources
