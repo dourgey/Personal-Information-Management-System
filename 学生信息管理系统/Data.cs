@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using System.IO;
+using System.Security.Cryptography;
 
 namespace 小区居民管理系统
 {
@@ -60,11 +61,27 @@ namespace 小区居民管理系统
             return str1;
         }
 
+        //MD5加密密码
+        public static string Md5(string str)
+        {
+            string temp = "";
+            MD5 md5 = new MD5CryptoServiceProvider();
+            byte[] data = System.Text.Encoding.Default.GetBytes(str);  //将字符串编码为一个字节序列
+            byte[] md5Data = md5.ComputeHash(data);  //计算data字节数组的哈希值
+            md5.Clear();  //释放掉计算过程中所用到的所有资源
+            for(int j = 0;j < md5Data.Length;j ++)
+            {
+                temp += md5Data[j].ToString("x").PadLeft(2, '0');
+            }
+            return temp; 
+        }
+
         //判断登陆密码是否正确
         public static bool compareUP(string str1, string str2)
         {
             bool a = false;
-            if (str1 == str2)
+            string str = Md5(str1);
+            if (str == str2)
             {
                 a = true;
             }

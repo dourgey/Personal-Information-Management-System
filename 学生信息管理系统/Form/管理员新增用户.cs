@@ -38,7 +38,7 @@ namespace 小区居民管理系统
                 string[] strUsername = Data.readTxtData(Login.LoginUsernamePath);
                 Login login = new Login();
                 int lineNumber = Data.getLineNumber(strUsername, login.getUsername()); ;
-                if (lineNumber  == -1)
+                if (lineNumber  != -1)
                 {
                     MessageBox.Show("用户名已存在！！！");
                     this.Close();
@@ -47,7 +47,7 @@ namespace 小区居民管理系统
                 else
                 {
                 Login.setData(Login.LoginUsernamePath, box1text);
-                Login.setData(Login.LoginPasswordPath, box2text);
+                Login.setData(Login.LoginPasswordPath, Data.Md5(box2text));
                 MessageBox.Show("保存成功！！！");
                 this.Close();
                 }

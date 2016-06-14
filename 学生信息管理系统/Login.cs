@@ -5,7 +5,7 @@ namespace 小区居民管理系统
 {
     class Login
     {
-        
+        //路径定义
         public static string LoginUsernamePath =AppDomain.CurrentDomain.BaseDirectory + @"data\LoginData\LoginUsername.txt";
         public static string LoginPasswordPath =AppDomain.CurrentDomain.BaseDirectory + @"data\LoginData\LoginPassword.txt";
         public static string NameDataPath = AppDomain.CurrentDomain.BaseDirectory + @"data\PersonData\NameData.txt";
@@ -19,7 +19,6 @@ namespace 小区居民管理系统
             sw.WriteLine(write_data);
             sw.Close();
             FSUN.Close();
-            
         }
 
 
@@ -33,6 +32,7 @@ namespace 小区居民管理系统
         {
             return username;
         }
+
         //成员变量Password
         private string password;
         public void setPassword(String password)

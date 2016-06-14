@@ -100,6 +100,7 @@
     <Compile Include="Form\管理员窗口.Designer.cs">
       <DependentUpon>管理员窗口.cs</DependentUpon>
     </Compile>
+    <Compile Include="SeqList.cs" />
     <Compile Include="查询页面.cs">
       <SubType>Form</SubType>
     </Compile>

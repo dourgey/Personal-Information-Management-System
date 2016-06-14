@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 using System.Windows.Forms;
 
 namespace 小区居民管理系统
@@ -51,7 +51,7 @@ namespace 小区居民管理系统
                     return;
                 }
             }
-            if (login.getUsername() != null && login.getPassword() != null && Data.compareUP(login.getUsername(), data.getCorrectusername()) && Data.compareUP(login.getPassword(), data.getCorrectpassword()))
+            else
             {
                 this.Visible = false;
                 欢迎页 nf = new 欢迎页();
